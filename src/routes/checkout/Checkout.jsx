@@ -37,7 +37,7 @@ const Checkout = () => {
 					cartItem={cartItem}
 				/>
 			))}
-			<span className="total">Final Total: {currencyFormatter(cartTotal)}</span>
+			<span className="total">Total: {currencyFormatter(cartTotal)}</span>
 		</div>
 	);
 };
