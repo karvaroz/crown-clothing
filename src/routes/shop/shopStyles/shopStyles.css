@@ -4,4 +4,35 @@
   -moz-column-gap: 10px;
        column-gap: 10px;
   row-gap: 50px;
+}
+
+/* For very small devices (486px and below) */
+@media only screen and (max-width: 486px) {
+  .products-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/* For small devices (596px and up) */
+@media only screen and (min-width: 596px) {
+  .products-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/* For medium devices (720px and up) */
+@media only screen and (min-width: 720px) {
+  .products-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* For large devices (995px and up) */
+@media only screen and (min-width: 995px) {
+  .products-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+/* For extra large devices (1100px and up) */
+@media only screen and (min-width: 1100px) {
+  .products-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }/*# sourceMappingURL=shopStyles.css.map */
