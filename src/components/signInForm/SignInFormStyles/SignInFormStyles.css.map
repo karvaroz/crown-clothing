@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,kBAAkB,CAAC;EACf,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,KAAK,EAAE,KAAK;CAUf;;AAbD,AAKI,kBALc,CAKd,EAAE,CAAC;EACC,UAAU,EAAE,MAAM;CACrB;;AAPL,AASI,kBATc,CASd,kBAAkB,CAAC;EACf,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;CACjC",
-    "sources": [
-        "SignInFormStyles.scss"
-    ],
-    "names": [],
-    "file": "SignInFormStyles.css"
-}
+{"version":3,"sources":["SignInFormStyles.scss","SignInFormStyles.css"],"names":[],"mappings":"AAAA;EACI,aAAA;EACA,sBAAA;EACA,YAAA;ACCJ;ADCI;EACI,kBAAA;ACCR;ADEI;EACI,aAAA;EACA,8BAAA;ACAR","file":"SignInFormStyles.css"}
