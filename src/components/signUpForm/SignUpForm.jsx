@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {  useState } from "react";
 import {
   createAuthUserWithEmailAndPassword,
   createUserDocumentFromAuth,
@@ -19,6 +19,7 @@ const SignUpForm = () => {
   const [formFields, setFormFields] = useState(initialValues);
   const { name, email, password, confirmPassword } = formFields;
   const resetFormFields = () => setFormFields(initialValues);
+
 
   const handleChange = (event) => {
     const { name, value } = event.target;
