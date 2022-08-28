@@ -11,6 +11,9 @@
   right: 40px;
   z-index: 5;
 }
+.cart-dropdown-container ::-webkit-scrollbar {
+  display: none;
+}
 .cart-dropdown-container .empty-message {
   font-size: 18px;
   margin: 50px auto;
@@ -23,4 +26,5 @@
 }
 .cart-dropdown-container button {
   margin-top: auto;
+  font-size: 12px;
 }/*# sourceMappingURL=cartDropdownStyles.css.map */
